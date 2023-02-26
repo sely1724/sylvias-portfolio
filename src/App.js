@@ -1,8 +1,6 @@
 import React from "react";
-import Display from "./components/Display";
+import PortfolioContainer from "./components/PortfolioContainer";
 
-function App() {
-  return <Display />;
-}
+const App = () => <PortfolioContainer />;
 
 export default App;
