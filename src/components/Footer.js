@@ -1,32 +1,45 @@
 import React from "react";
+// icons for footer - https://react-icons.github.io/react-icons
+import {
+  // github:
+  AiFillGithub,
+  // email:
+  AiFillMail,
+  // linkedin:
+  AiFillLinkedin,
+  // resume:
+  AiOutlineSolution,
+} from "react-icons/ai";
 
-export default function Card(props) {
-  const cardStyle = {
-    width: "18rem",
-  };
+// TO DO: ADD RESUME TO LINK TO
 
-  // Helper function that generates a random width for our placeholder images
-  const randomWidth = () => {
-    const number = Math.random() * (300 - 200) + 200;
-    return number.toString().split(".")[0];
-  };
-
+export default function Footer() {
   return (
-    <div className="container">
-      <div className="card" style={cardStyle}>
-        <img
-          className="card-img-top"
-          src={`http://placecorgi.com/${randomWidth()}`}
-          alt="Card cap"
-        />
-        <div className="card-body">
-          <h5 className="card-title">Name: {props.name}</h5>
-          <p className="card-text">Description: {props.description}</p>
-          <p className="card-text">ID: {props.id}</p>
-          <a href="#" className="btn btn-primary">
-            Adopt {props.name}
-          </a>
-        </div>
+    <div id="footer-contact">
+      <div className="contact-icons">
+        <a href="https://github.com/sely1724" target="_blank" rel="noreferrer">
+          <AiFillGithub />
+        </a>
+      </div>
+      <div className="contact-icons">
+        <a href="mailto: sylvianne9417@gmail.com">
+          <AiFillMail />
+        </a>
+      </div>
+
+      <div className="contact-icons">
+        <a
+          href="https://www.linkedin.com/in/sylviaely/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <AiFillLinkedin />
+        </a>
+      </div>
+      <div className="contact-icons">
+        <a href="">
+          <AiOutlineSolution />
+        </a>
       </div>
     </div>
   );

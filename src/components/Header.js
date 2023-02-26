@@ -1,7 +1,5 @@
 import React from "react";
-// Here we are importing a CSS file as a dependency
-import "../styles/Header.css";
-import Navigation from "./Navigation";
+import Navigation from "./NavTabs";
 
 // TO DO: Work on navbar id or class for style
 export default function Header() {

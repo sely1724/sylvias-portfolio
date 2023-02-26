@@ -1,0 +1,23 @@
+{
+  "name": "sylvias-portfolio",
+  "version": "1.0.0",
+  "description": "# 20 React: React Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sely1724/sylvias-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sely1724/sylvias-portfolio/issues"
+  },
+  "homepage": "https://github.com/sely1724/sylvias-portfolio#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-icons": "^4.7.1"
+  }
+}
