@@ -1,8 +1,9 @@
 import React from "react";
+import "../../App.css";
 
 export default function AboutMe() {
   return (
-    <div className="aboutMe">
+    <div id="aboutMe" className="mainComponent">
       <h1>About Me</h1>
       <p>
         My name is Sylvia. I run the merchandising team at a ecommerce company

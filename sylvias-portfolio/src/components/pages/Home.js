@@ -1,12 +1,6 @@
-// IS THIS NECESSARY??
-
 import React from "react";
+import "../../App.css";
 
 export default function Home() {
-  return (
-    <div className="portfolio">
-      <h1>Home</h1>
-      <div> TESTTEST TEST </div>
-    </div>
-  );
+  return <div className="mainComponent homepage-bgimage"></div>;
 }
