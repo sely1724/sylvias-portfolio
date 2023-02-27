@@ -4,7 +4,7 @@ import Navigation from "./NavTabs";
 // TO DO: Work on navbar id or class for style
 export default function Header() {
   return (
-    <header className="header">
+    <header>
       <div>
         <Navigation />
       </div>

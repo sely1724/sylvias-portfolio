@@ -4,7 +4,6 @@ import "../../App.css";
 export default function AboutMe() {
   return (
     <div id="aboutMe" className="mainComponent">
-      <h1>About Me</h1>
       <p>
         My name is Sylvia. I run the merchandising team at a ecommerce company
         called Tavour. In my job I do everything from project management to data
