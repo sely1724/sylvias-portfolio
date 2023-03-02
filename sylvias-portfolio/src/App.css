@@ -176,10 +176,20 @@ margin: 0 .25rem 0 .25rem
 .formContainer {
   display: flex;
   flex-direction: row;
-  width: 70vw;
+  width: 40vw;
   height: 70vh;
   position: fixed;
   background-color: transparent;
   justify-content:space-between;
   margin: 9rem 2rem 2rem 13rem
 }
+
+.formBox {
+  flex-direction: column;
+  width: 40vw;
+  height: 70vh;
+  position: relative;
+  justify-content:space-between;
+  margin: 9rem 2rem 2rem 13rem
+}
+
