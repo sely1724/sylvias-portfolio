@@ -1,11 +1,5 @@
 import React, { useState } from "react";
 import "../../App.css";
-
-// THEN I see a contact form with fields for a name, email , and a message
-// WHEN I move my cursor out of one of the form fields without entering text
-// THEN I receive a notification that this field is required
-
-// Here we import a helper function that will check if the email is valid
 import { validateEmail } from "../../utils/helpers";
 
 function Contact() {
@@ -54,9 +48,10 @@ function Contact() {
   }
 
   return (
-    <div>
+    // must place outside of header box
+    <div className="formContainer">
       <p>Hello {name}</p>
-      <form className="form">
+      <form className="formBox">
         <input
           value={email}
           name="email"
