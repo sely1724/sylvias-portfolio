@@ -7,15 +7,12 @@ import {
   AiFillMail,
   // linkedin:
   AiFillLinkedin,
-  // resume:
-  AiOutlineSolution,
 } from "react-icons/ai";
-
-// TO DO: ADD RESUME TO LINK TO
 
 export default function Footer() {
   return (
-    <div id="footer-contact">
+    // Start footer
+    <div className="footerContainer">
       <div className="contact-icons">
         <a href="https://github.com/sely1724" target="_blank" rel="noreferrer">
           <AiFillGithub />
@@ -36,11 +33,11 @@ export default function Footer() {
           <AiFillLinkedin />
         </a>
       </div>
-      <div className="contact-icons">
+      {/* <div className="contact-icons">
         <a href="">
           <AiOutlineSolution />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
