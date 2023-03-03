@@ -197,9 +197,8 @@ margin: 0 .25rem 0 .25rem
 
 .downloadContainer {
   display: flex;
-  flex-direction: row;
-  width: 40vw;
-  height: 70vh;
+  flex-direction: column;
+  
   position: fixed;
   background-color: transparent;
   justify-content:space-between;
