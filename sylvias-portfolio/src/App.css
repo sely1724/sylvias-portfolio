@@ -193,3 +193,15 @@ margin: 0 .25rem 0 .25rem
   margin: 9rem 2rem 2rem 13rem
 }
 
+/* Start RESUME */
+
+.downloadContainer {
+  display: flex;
+  flex-direction: row;
+  width: 40vw;
+  height: 70vh;
+  position: fixed;
+  background-color: transparent;
+  justify-content:space-between;
+  margin: 9rem 2rem 2rem 13rem
+}
