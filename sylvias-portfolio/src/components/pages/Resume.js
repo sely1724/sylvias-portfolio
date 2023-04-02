@@ -1,14 +1,14 @@
 import React from "react";
 import "../../App.css";
-import resume from "../../resume.png";
+// import resume from "../../resume.png";
 
 // TODO - ADD ABILITY TO DOWNLAD AND LIST DEV PROFICIENCIES
 
 export default function Resume() {
   return (
     <div className="downloadContainer">
-      <h1>Resume</h1>
-      <img src={resume} alt="Sylvia's Resume" />
+      {/* <h1>Resume</h1>
+      <img src={resume} alt="Sylvia's Resume" /> */}
     </div>
   );
 }

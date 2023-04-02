@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Header from "./Header";
-import Footer from "./Footer";
+import FooterApp from "./Footer";
 import About from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
@@ -28,10 +28,18 @@ export default function PortfolioContainer() {
   return (
     <div>
       {/* We are passing the currentPage from state and the function to update it */}
-      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Header
+        currentPage={currentPage}
+        handlePageChange={handlePageChange}
+        className="border-none"
+      />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
-      <Footer currentPage={currentPage} handlePageChange={handlePageChange} />
+      <FooterApp
+        currentPage={currentPage}
+        handlePageChange={handlePageChange}
+        className="border-none"
+      />
     </div>
   );
 }

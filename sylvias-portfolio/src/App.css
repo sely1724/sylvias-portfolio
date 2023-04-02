@@ -1,4 +1,8 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
   --main-color: rgb(225, 233, 245);
   --accent-color: seagreen;
   --nav-accent: rgb(240, 158, 27);
@@ -8,7 +12,7 @@
 }
 
 /* universal selector */
-* {
+/* * {
   box-sizing: border-box;
   margin:0;
   padding:0;
@@ -20,12 +24,12 @@
   justify-content: center;
   flex-direction: column;
 
-}
+} */
 
 /* https://stackoverflow.com/questions/60970319/how-to-set-my-background-image-fit-to-screen-in-react*/
 
 /* Begin Header/Navbar */
-body{
+/* body{
   background-image: url("../public/ptarmigan.jpg");
   height: 100vh;
   background-position: center;
@@ -69,10 +73,10 @@ margin: 0 .25rem 0 .25rem
 
 .nav-item a:hover {
   color:var(--nav-accent);
-}
+} */
 
 /* Begin About Me */
-.aboutMeContainer{
+/* .aboutMeContainer{
   display: flex;
   flex-direction: row;
   width: 70vw;
@@ -86,14 +90,14 @@ margin: 0 .25rem 0 .25rem
   width: 25vw;
   height: 70vh;
   position: relative;
-  object-fit: cover;
+  object-fit: cover; */
   /*figure out border 
   
   border-color: var(--accent-color);
   border-width: 20px;
 
   */
-}
+/* }
 
 .imageContainer img{
   width: 32vw;
@@ -115,9 +119,9 @@ margin: 0 .25rem 0 .25rem
   justify-content: center;
   width: 25vw;
   height: 70vh;
-}
+} */
 /* Start Projects */
-.projectComponent {
+/* .projectComponent {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -169,11 +173,11 @@ margin: 0 .25rem 0 .25rem
 }
 #workday{
   background-image: url("./weather.png");
-}
+} */
 
 /* Start Form CSS */
 
-.formContainer {
+/* .formContainer {
   display: flex;
   flex-direction: row;
   width: 40vw;
@@ -191,9 +195,9 @@ margin: 0 .25rem 0 .25rem
   position: relative;
   justify-content:space-between;
   margin: 9rem 2rem 2rem 13rem
-}
+} */
 
-/* Start RESUME */
+/* Start RESUME
 
 .downloadContainer {
   display: flex;
@@ -203,11 +207,11 @@ margin: 0 .25rem 0 .25rem
   background-color: transparent;
   justify-content:space-between;
   margin: 9rem 2rem 2rem 13rem
-}
+} */
 
 
 /*Start Footer */
-.footerContainer{
+/* .footerContainer{
   display: flex;
   flex-direction: row;
   width: 40vw;
@@ -218,4 +222,4 @@ margin: 0 .25rem 0 .25rem
   margin: 9rem 2rem 2rem 13rem
 
 
-}
+} */

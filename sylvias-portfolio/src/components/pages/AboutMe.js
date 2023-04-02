@@ -1,29 +1,8 @@
 import React from "react";
 import "../../App.css";
-import sylvia from "../../sylvia.jpg";
 
 export default function AboutMe() {
   return (
-    <div id="aboutMe" className="mainComponent">
-      <div className="aboutMeContainer">
-        <div className="imageContainer">
-          <img src={sylvia} alt="tbd" />
-        </div>
-        <div className="textContainer">
-          <p>
-            {" "}
-            Hi :) My name is Sylvia. I run the merchandising team at a ecommerce
-            company called Tavour. In my job I do everything from project
-            management to data analytics. Write MORE HERE
-            <br />
-            <br />+ Find a more professional photo
-            <br />
-            <br />+ Add cool border to separate containers and bg img
-            <br />
-            <br />+ Center Text
-          </p>
-        </div>
-      </div>
-    </div>
+    <div className="bg-ptarmigan bg-center bg-no-repeat bg-cover bg-fixed mx-4 min-h-[37.5rem] max-h-screen p-6 border border-gray-200 rounded-sm  dark:bg-gray-800 dark:border-gray-700"></div>
   );
 }
