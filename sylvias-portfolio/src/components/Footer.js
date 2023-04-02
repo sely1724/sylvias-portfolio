@@ -27,8 +27,8 @@ export default function FooterApp() {
     //   </Footer.LinkGroup>
     // </Footer>
 
-    <footer class="fixed bottom-0 w-full border-none bg-transparent dark:bg-gray-800 sm:px-4">
-      <ul class="flex justify-end space-x-2 py-4 text-md font-medium text-black dark:text-gray-400 sm:mt-0">
+    <footer className="fixed bottom-0 w-full border-none bg-transparent dark:bg-gray-800 sm:px-4">
+      <ul className="flex justify-end space-x-2 py-4 text-md font-medium text-black dark:text-gray-400 sm:mt-0">
         <li>
           <a
             href="https://github.com/sely1724"
