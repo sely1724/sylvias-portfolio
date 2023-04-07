@@ -33,6 +33,7 @@ export default function PortfolioContainer() {
         handlePageChange={handlePageChange}
         className="border-none"
       />
+
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
       <FooterApp

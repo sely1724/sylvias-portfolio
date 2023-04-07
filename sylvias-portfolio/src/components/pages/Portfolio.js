@@ -72,12 +72,16 @@ const Portfolio = () => {
   ];
 
   localStorage.setItem("PortfolioInfo", JSON.stringify(PortfolioInfo));
-  let PortfolioParsed = JSON.parse(localStorage.getItem("PortfolioInfo"));
+
+  function getLocalStorage() {
+    const PortfolioParsed = JSON.parse(localStorage.getItem("PortfolioInfo"));
+    return PortfolioParsed;
+  }
 
   return (
-    <div className="overflow-y-scroll bg-ptarmigan bg-center bg-no-repeat bg-cover bg-fixed my-2 mx-4 min-h-[37.5rem] max-h-[37.5rem]  p-6 border border-gray-200 rounded-sm  dark:bg-gray-800 dark:border-gray-700 ">
+    <div className="overflow-y-scroll bg-ptarmigan bg-center bg-no-repeat bg-cover bg-fixed my-2 mx-4 min-h-[37.5rem] max-h-[37.5rem] p-6 border border-gray-200 rounded-sm dark:bg-gray-800 dark:border-gray-700 ">
       <div className="my-1 flex flex-col items-center">
-        <Project PortfolioInfo={PortfolioParsed} />
+        <Project PortfolioInfo={getLocalStorage()} />
       </div>
     </div>
   );
